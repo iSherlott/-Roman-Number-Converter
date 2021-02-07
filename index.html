@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modelo</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h1 class="title">Conversor de números Romanos</h1>
+      <label for="input_date">Informe o que deseja converter</label>
+      <input id="input_date" name="input_date" type="text" /><br />
+
+      <label for="input_date">Deseja converter para que tipo de número?</label>
+      <select id="opc">
+        <option value="romano">Romano</option>
+        <option value="decimal">Decimal</option>
+      </select>
+
+      <button onclick="calc()">Calcular</button><br /><br />
+
+      <span class="content"></span><br />
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
