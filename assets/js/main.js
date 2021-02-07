@@ -54,7 +54,7 @@ function valid_romano(number) {
       return !regExp.test(number);
 
     case "decimal":
-      regExp = /[a-z,¨@!#$%^&*()/\\\'\"\`\-\+\{\}]/i;
+      regExp = /[0,a-z,¨@!#$%^&*()/\\\'\"\`\-\+\{\}]/i;
       return !regExp.test(number);
 
     default:
